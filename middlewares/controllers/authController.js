@@ -62,7 +62,7 @@ const register = async (req, res) => {
 		return res.status(200).send('user added successfully ');
 	} catch (error) {
         
-        return res,statusbar(400).send(`Error creating user`);
+        return res.statusbar(400).send(`Error creating user`);
     }
 };
 
